@@ -1,0 +1,21 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.MaterialTagEditor"
+    },
+    "cordova-plugin-mifare-ultralight": {
+      "PACKAGE_NAME": "com.MaterialTagEditor"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.MaterialTagEditor"
+    }
+  },
+  "dependent_plugins": {}
+}

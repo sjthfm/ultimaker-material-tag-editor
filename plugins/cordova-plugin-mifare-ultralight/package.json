@@ -1,0 +1,53 @@
+{
+  "_from": "cordova-plugin-mifare-ultralight",
+  "_id": "cordova-plugin-mifare-ultralight@1.0.4",
+  "_inBundle": false,
+  "_integrity": "sha512-Y0UUMf/bnzKpe+pvxMZDt0YnCpPtSGK/kuukWrhHT0pt/JLwTVbuKY9zUhQ+iy9Ef16irxW2YzUeAuL9vvHGew==",
+  "_location": "/cordova-plugin-mifare-ultralight",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-mifare-ultralight",
+    "name": "cordova-plugin-mifare-ultralight",
+    "escapedName": "cordova-plugin-mifare-ultralight",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-mifare-ultralight/-/cordova-plugin-mifare-ultralight-1.0.4.tgz",
+  "_shasum": "03a51134b0fd164c86bb11d0c07171d51682de25",
+  "_spec": "cordova-plugin-mifare-ultralight",
+  "_where": "/Users/delta/Git/nfc/NFCTags",
+  "author": {
+    "name": "Roope Hakulinen"
+  },
+  "bugs": {
+    "url": "https://github.com/RoopeHakulinen/cordova-plugin-mifare-ultralight/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Provides Mifare Ultralight functionality for Cordova-based applications",
+  "homepage": "https://github.com/RoopeHakulinen/cordova-plugin-mifare-ultralight#readme",
+  "keywords": [
+    "cordova",
+    "plugin",
+    "mifare",
+    "ultralight",
+    "android",
+    "javascript"
+  ],
+  "license": "MIT",
+  "main": "www/cordova-plugin-mifare-ultralight.js",
+  "name": "cordova-plugin-mifare-ultralight",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoopeHakulinen/cordova-plugin-mifare-ultralight.git"
+  },
+  "scripts": {},
+  "version": "1.0.4"
+}
