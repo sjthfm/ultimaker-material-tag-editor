@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, width=device-width" />
+  <title>[For Ultimaker]: NFC Tag GUID Writer</title>
+
+  <script type="text/javascript" src="js/Variables.js"></script>
+  
+  <script src="lib/onsen/js/onsenui.js"></script>
+  <script type="text/javascript" src="js/jquery.js"></script>
+
+  <link rel="stylesheet" href="lib/onsen/css/onsenui.css">
+  <link rel="stylesheet" href="lib/onsen/css/onsen-css-components.css">
+  <link rel="stylesheet" href="css/main.css"> <!-- Main CSS Control -->
+  
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript" src="js/TagWriter.js"></script>
+  <script type="text/javascript" src="js/Material.js"></script>
+  <script type="text/javascript" src="js/FileSystemUtility.js"></script>
+  <script type="text/javascript" src="js/index.js"></script> <!-- Main Application Control -->
+</head>
+
+<body>
+
+  <!-- First navigation component: Navigator. This will remain always on top of the app. -->
+  <ons-navigator animation="slide" swipeable id="myNavigator" page="tabbar.html">
+  </ons-navigator>
+
+  <!-- Third navigation component: Tabbar. This will disappear if the first or second components change their content. -->
+  <template id="tabbar.html">
+    <ons-page id="tabbarPage">
+      <ons-toolbar>
+       <div class="left">
+             <ons-toolbar-button component="button/menu">
+              <ons-icon icon="ion-navicon, material:md-menu" size="32px, material:24px"></ons-icon>
+            </ons-toolbar-button>
+        </div> 
+        <div class="center">NFC GUID Writer</div>
+        <div class="right">
+            <ons-toolbar-button component="button/new-task">New</ons-toolbar-button>
+        </div>
+      </ons-toolbar>
+
+
+
+      <!-- Auto-positioned Tabbar: top on Android, bottom on iOS/other. -->
+      <ons-tabbar id="myTabbar" position="auto">
+        <ons-tab 
+          page="html/home.html" 
+          label="Instructions" 
+          icon="fa-home" 
+          active> 
+        </ons-tab>
+        <ons-tab 
+          page="html/setguid.html" 
+          icon="fa-cog" 
+          label="Set Tag Details">
+        </ons-tab>
+        <ons-tab 
+          page="html/nfcwriter.html" 
+          icon="fa-tags" 
+          label="Write Tag">
+        </ons-tab>  
+      </ons-tabbar>
+    </ons-page>
+  </template>
+
+</body>
+
+</html>

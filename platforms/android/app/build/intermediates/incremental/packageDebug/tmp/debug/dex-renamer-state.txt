@@ -1,0 +1,4 @@
+#Fri Nov 08 14:36:11 GMT 2019
+base.0=/Users/delta/Git/nfc/UltimakerTagEditor/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
