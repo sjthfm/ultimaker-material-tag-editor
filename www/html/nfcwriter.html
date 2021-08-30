@@ -1,0 +1,31 @@
+<ons-page id="pageWriteTag">
+	<style>
+		.pageWriteTag-container {
+			padding:25px;
+		}
+		.event-button {
+			margin-bottom:10px;
+		}
+		.customCard {
+			padding:0px;
+		}
+	</style>
+  <section class="pageWriteTag-container">
+    <ons-button class="event-button" id="pageWriteTag-startWritingTags" modifier="large">Start Writing To Tags</ons-button>
+    <ons-button class="event-button" id="pageWriteTag-stopWritingTags" modifier="large">Stop Writing To Tags</ons-button>
+  </section>
+  <ons-card class='customCard'>
+	  <section class="pageWriteTag-container">
+	  	<p>Writing Progress: <span id='progressamt'>0</span>%</p>
+	  	<progress max="100" value="0" id="tag_write_progress"></progress>
+	  	<p>Please hold the tag against your phone until the writing complete screen appears. This should take approximately 1-5 seconds...</p>
+	  </section>
+  </ons-card>
+  <ons-card class='customCard'>
+	  <section class="pageWriteTag-container">
+	  	<h3 id="pageWriteTag-Header"> Live Tag Data (GUID): </h3>
+	  	<p id="pageWriteTag-LiveTagData">No data available...</p>
+	  	<p class='liveDataObj'></p>
+	  </section>
+  </ons-card>
+</ons-page>

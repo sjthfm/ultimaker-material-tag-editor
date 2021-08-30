@@ -1,0 +1,43 @@
+<ons-page id="pageSetData">
+<style>
+#pageSetData-itemType {
+    width:100%;
+}
+
+.pageSetData-container {
+	padding:25px;
+}
+
+select {
+    text-align:center;
+    text-align-last:center;
+    height:100px;
+}
+
+option {
+    text-align:center;
+    text-align-last:center;
+}
+
+.select-input {
+	height:100px;
+	vertical-align:middle;
+}
+</style>
+    <section class="pageSetData-container">
+  	  <ons-select style="vertical-align:middle;font-size:2em;height:100px;" id="pageSetData-itemType" modifier="material underbar">
+  	  </ons-select>
+    </section>
+    <section style="padding-bottom:0px;" class="pageSetData-container">
+    	<h3 id="pageSetData-DataToWriteContainer">Chosen GUID</h3>
+    </section>
+    <section style="padding-top:5px;padding-bottom:0px;" class="pageSetData-container">
+    	<p id="pageSetData-GUIDContainer">GUID...</p>
+    </section>
+    <section style="padding-top:5px;padding-bottom:0px;" class="pageSetData-container">
+    	<h3 id="pageSetData-DataToWriteContainer">Add New Material</h3>
+    </section>
+    <section style="padding-top:5px;padding-bottom:0px;" class="pageSetData-container">
+    	<ons-button modifier="large" id="pageSetData-AddNewMaterial">New Material</ons-button>
+    </section>
+</ons-page>
